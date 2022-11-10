@@ -12,6 +12,7 @@
 - [Project Overview](#project-overview)
 - [Setup & Instructions](#setup-&-instructions)
 - [Project Structure](#project-structure)
+- [Commands](#commands)
 - [Further Implementations](#further-implementations)
 - [Acknowledgments](#acknowledgments)
 
@@ -102,6 +103,19 @@ This segment of the project involved building the DigitalFridge API for the user
 
 
 #### Entity Relationship Diagrams (ERD)
+
+## Commands
+
+Food Item CRUD functionality: 
+
+| Request Type  | Request Path                                                                         | Description                                  |
+|---------------|--------------------------------------------------------------------------------------|----------------------------------------------|
+| GET          | `http://localhost:8080/foodItems/byName/{foodName}`                                                | Retrieves a Food Item by Name                         
+| GET           | `http://localhost:8080/foodItems`                                                        | Retrieves all Food Item                        
+| GET        | `http://localhost:8080/foodItems/foodGroup`                                                     | Retrieves Food Items by category                               
+| GET           | `http://localhost:8080/foodItems/{id}`                                                      | Retrieves a Food Item by Id                       
+| POST          | `http://localhost:8080/foodItems/add`                                                  | Creates a new Food Item                     |
+| DELETE        | `http://llocalhost:8080/foodItems/delete/{id}`                            | Deletes a a Food Item by Id                         
 
 
 ## Further Implementations
